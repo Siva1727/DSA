@@ -45,7 +45,6 @@ public class frogjump_opti {
 
             prev2 = prev;
             prev = cur;
-
         }
         System.out.print(prev);
     }

@@ -53,6 +53,11 @@ public class combination {
             }
             return;
         }
+        // if (k == 0) {
+        //     list.add(new ArrayList(sublist));
+        //     return;
+        // }
+        
         if (arr[i] <= k) {
             sublist.add(arr[i]);
             sequence(i, arr, list, sublist, k - arr[i]);

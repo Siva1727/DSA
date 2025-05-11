@@ -1,9 +1,9 @@
-
+// using arr;
 class st_impl{
     static int top = -1;
     static int[]st= new int[10];
     static void push(int x){
-        if(top == st.length-1){
+        if(top >= st.length-1){
             System.out.print("Stack overflow");
             return ;
         }

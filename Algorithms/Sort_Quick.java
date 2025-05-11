@@ -58,7 +58,7 @@ public class QuickSort {
 =======
 package Algorithms;
 
-public class QuickSort {
+public class Sort_Quick {
 
     public static void main(String[] args) {
         int[] arr = {4, 6, 2, 5, 7, 9, 1, 3};
@@ -103,6 +103,7 @@ public class QuickSort {
         // arr[j] = pivot;
         // arr[low] = temp;
         return j;
+        
     }
 
     static void print(int[] arr) {

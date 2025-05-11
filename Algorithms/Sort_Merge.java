@@ -62,7 +62,7 @@ public class MergeSort {
 =======
 package Algorithms;
 import java.util.*;
-public class MergeSort {
+public class Sort_Merge {
     public static void main(String[] args) {
         int arr[]={3,1,2,4,1,5,6,4,7};
         int low = 0;
@@ -116,7 +116,7 @@ public class MergeSort {
         for(int i=low;i<=high;i++){
             arr[i]=ls.get(i-low);
         }
-        return ;
+        //return ;
     }
     
 }
