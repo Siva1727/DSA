@@ -8,7 +8,7 @@ class queue_impl{
                 System.out.println("Queue overflow");
                 return ;
             }
-            if(st == -1){
+            if(st == -1){ //or end == -1
                 st = 0;
                 end = 0;
             }
